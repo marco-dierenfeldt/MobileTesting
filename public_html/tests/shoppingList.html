@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Einkaufsliste</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="../css/libs/jquery.mobile-1.4.0.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/libs/jquery-1.10.2.js" type="text/javascript"></script>
+        <script src="../js/libs/jquery.mobile-1.4.0.js" type="text/javascript"></script>
+        
+        <script src="../js/app/persistence/persistence_mock.js" type="text/javascript"></script>
+        <script src="../js/app/ui/ui-generation.js" type="text/javascript"></script>
+        <script src="../js/app/business.js" type="text/javascript"></script>
+        <script src="../js/app/application.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="sl-main" data-role="page">
+
+            <div data-role="header">
+                <h3>Einkaufsliste</h3>
+            </div>
+            <div data-role="content">
+                <div data-role="controlgroup">
+                    <a href="shoppingListOverview.html" data-role="button"
+                       data-icon="grid" data-iconpos="right">
+                        Einkaufsliste anzeigen
+                    </a>
+                    <a href="newShoppinglist.html" data-role="button"
+                       data-icon="plus" data-iconpos="right">
+                        Neue Einkaufsliste erstellen
+                    </a>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <center>Marco Dierenfedlt 2013</center>
+            </div>
+        </div>
+    </body>
+</html>
